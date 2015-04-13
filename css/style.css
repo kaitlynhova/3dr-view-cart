@@ -12,14 +12,18 @@ ul{
 
 a
 {
-  color: white;
+  color: white !important;
+}
+
+.no-underline{
+  text-decoration: none !important;
 }
 
 a :hover
 {
   color: white !important;
   opacity: .7;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* HEADER STYLES */
@@ -317,17 +321,53 @@ a .clearance-area{
 .cart-quantity{
   width: 100%;
 }
+.coupon-code{
+  padding: 13px;
+}
 
 .coupon-submit{
-  padding: 20px;
+  padding: 13px;
   -webkit-appearance: none;
   color: white;
   border: 0px;
 }
 
-.couponsyo{
-  width: 240px;
+.checkout-button{
+  background: #5FBE8C;
+  padding: 15px;
+  width: 100%;
+  max-width: 95px;
   float: right;
+  transition: 5s;
+}
+
+.couponsyo{
+  width: 100%;
+  max-width: 251px;
+  float: right;
+  transition: .5s;
+}
+
+.empty-cart-btn{
+  background: #df3f3f;
+  padding: 15px;
+  width: 100%;
+  max-width: 101px;
+  transition: .5s;
+}
+
+.button:hover{
+  color: white;
+  opacity: .7;
+  text-decoration: none;
+}
+
+.continue-shoppin{
+  background: gray;
+  padding: 15px;
+  width: 100%;
+  max-width: 151px;
+  transition: .5s;
 }
 
 /* MOBILE STYLES */
