@@ -267,6 +267,14 @@ a .clearance-area{
   text-align: center;
 }
 
+/* CART */
+.cart-image{
+  width: 100%;
+}
+
+.cart-quantity{
+  width: 100%;
+}
 
 /* MOBILE STYLES */
 
