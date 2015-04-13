@@ -10,44 +10,74 @@
       <script src="js/jquery.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h2>My Cart Times</h2>
-      <div class="row">
-        <div class="col-sm-6 col-xs-7">
-          <h4>Product</h4>
+    <div class="view-cart-page">
+      <div class="container no-mobile-margin">
+        <h2>My Cart</h2>
+        <div class="row">
+          <div class="col-sm-6 col-xs-6">
+            <h3>Product</h3>
+          </div>
+          <div class="col-sm-2 col-xs-2">
+            <h3>Price</h3>
+          </div>
+          <div class="col-sm-1 col-xs-3">
+            <h3>#</h3>
+          </div>
+          <div class="col-sm-2 hidden-xs">
+            <h3>Total</h3>
+          </div>
         </div>
-        <div class="col-sm-2 col-xs-2">
-          <p>Price</p>
+        <div class="row cart-item">
+          <div class="col-sm-2 col-xs-2">
+            <img class="cart-image"src="product-images/1.jpg">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <h4>Name of thing</h4>
+            <p>this is what that thing is yeaah</p>
+          </div>
+          <div class="col-sm-2 col-xs-2">
+            <p>$12.90</p>
+          </div>
+          <div class="col-sm-1 col-xs-2">
+            <input class="cart-quantity" type="text" name="quantity"><br>
+          </div>
+          <div class="col-sm-1 hidden-xs">
+            <p>$12.90</p>
+          </div>
+          <div class="col-sm-2 col-xs-2">
+            <i class="remove-x fa fa-times"></i>
+          </div>
         </div>
-        <div class="col-sm-2 col-xs-2">
-          <p>Quantity</p>
+
+        <div class="row cart-item">
+          <div class="col-sm-2 col-xs-2">
+            <img class="cart-image"src="product-images/1.jpg">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <h4>Name of thing</h4>
+            <p>this is what that thing is yeaah</p>
+          </div>
+          <div class="col-sm-2 col-xs-2">
+            <p>$12.90</p>
+          </div>
+          <div class="col-sm-1 col-xs-2">
+            <input class="cart-quantity" type="text" name="quantity"><br>
+          </div>
+          <div class="col-sm-1 hidden-xs">
+            <p>$25.80</p>
+          </div>
+          <div class="col-sm-2 col-xs-2">
+            <i class="remove-x fa fa-times"></i>
+          </div>
         </div>
-        <div class="col-sm-1 hidden-xs">
-          <p>Total</p>
-        </div>
-        <div class="col-sm-1 col-xs-1">
-          <p>stop</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2 col-xs-2">
-          <img class="cart-image"src="product-images/1.jpg">
-        </div>
-        <div class="col-sm-4 col-xs-5">
-          <h4>Name of thing</h4>
-          <p>this is what that thing is yeaah</p>
-        </div>
-        <div class="col-sm-2 col-xs-2">
-          <p>$12.90</p>
-        </div>
-        <div class="col-sm-2 col-xs-2">
-          <input class="cart-quantity" type="text" name="quantity"><br>
-        </div>
-        <div class="col-sm-1 hidden-xs">
-          <p>$12.90</p>
-        </div>
-        <div class="col-sm-1 col-xs-1">
-          x
+
+        <div class="row total-row">
+          <div class="col-sm-9 col-xs-9">
+            <p>Total</p>
+          </div>
+          <div class="col-sm-3 col-xs-3">
+            <p>$25.80</p>
+          </div>
         </div>
       </div>
     </div>
