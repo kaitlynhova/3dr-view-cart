@@ -271,7 +271,7 @@ a .clearance-area{
 
 .view-cart-page{
   background: whitesmoke;
-  height: 100%;
+  min-height: 100%;
 }
 
 .cart-image{
@@ -297,6 +297,7 @@ a .clearance-area{
   padding-top: 20px;
   padding-bottom: 12px;
   margin-top: -20px;
+  margin-bottom: 50px;
 }
 
 .add-on{
@@ -315,6 +316,18 @@ a .clearance-area{
 
 .cart-quantity{
   width: 100%;
+}
+
+.coupon-submit{
+  padding: 20px;
+  -webkit-appearance: none;
+  color: white;
+  border: 0px;
+}
+
+.couponsyo{
+  width: 240px;
+  float: right;
 }
 
 /* MOBILE STYLES */
