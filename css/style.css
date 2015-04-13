@@ -299,6 +299,16 @@ a .clearance-area{
   margin-top: -20px;
 }
 
+.add-on{
+  margin-top: -20px;
+  background: #f1f1f1;
+}
+
+.addon-item-arrow{
+  width: 100%;
+  max-width: 50px;
+}
+
 .remove-x:hover{
   opacity: .7;
 }
